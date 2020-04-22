@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c259f24a-137c-41a9-80be-445d72d0cfa0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MessagesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteca.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ExampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Messages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Messages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/MessagesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/MessagesTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/ExampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/MessagesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MessagesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +48,9 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
-  <component name="RunManager" selected="JUnit.MessagesTests">
+  <component name="RunManager" selected="Application.BibliotecaApp">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
       <module name="biblioteca" />
@@ -96,6 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MessagesTests.shouldPrintBookList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MessagesTests" />
+      <option name="METHOD_NAME" value="shouldPrintBookList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MessagesTests.shouldPrintWelcomeMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
@@ -114,9 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BibliotecaApp" />
+        <item itemvalue="JUnit.MessagesTests.shouldPrintBookList" />
         <item itemvalue="JUnit.MessagesTests" />
         <item itemvalue="JUnit.MessagesTests.shouldPrintWelcomeMessage" />
-        <item itemvalue="Application.BibliotecaApp" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +148,7 @@
       <updated>1587501271333</updated>
       <workItem from="1587501274100" duration="314000" />
       <workItem from="1587502117685" duration="1868000" />
-      <workItem from="1587512826642" duration="1248000" />
+      <workItem from="1587512826642" duration="3672000" />
     </task>
     <servers />
   </component>
@@ -144,26 +160,30 @@
       <screen x="-299" y="-1057" width="2560" height="1057" />
     </state>
     <state x="384" y="-947" key="#Project_Structure/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587501332573" />
-    <state width="2518" height="290" key="GridCell.Tab.0.bottom" timestamp="1587514011165">
+    <state x="794" y="-806" key="#com.intellij.ide.util.MemberChooser" timestamp="1587514511478">
       <screen x="-299" y="-1057" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.bottom/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587514011165" />
-    <state width="2518" height="290" key="GridCell.Tab.0.center" timestamp="1587514011164">
+    <state x="794" y="-806" key="#com.intellij.ide.util.MemberChooser/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587514511478" />
+    <state width="2518" height="290" key="GridCell.Tab.0.bottom" timestamp="1587516441866">
       <screen x="-299" y="-1057" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.center/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587514011164" />
-    <state width="2518" height="290" key="GridCell.Tab.0.left" timestamp="1587514011163">
+    <state width="2518" height="290" key="GridCell.Tab.0.bottom/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587516441866" />
+    <state width="2518" height="290" key="GridCell.Tab.0.center" timestamp="1587516441865">
       <screen x="-299" y="-1057" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.left/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587514011163" />
-    <state width="2518" height="290" key="GridCell.Tab.0.right" timestamp="1587514011164">
+    <state width="2518" height="290" key="GridCell.Tab.0.center/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587516441865" />
+    <state width="2518" height="290" key="GridCell.Tab.0.left" timestamp="1587516441864">
       <screen x="-299" y="-1057" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.right/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587514011164" />
-    <state x="490" y="-890" key="SettingsEditor" timestamp="1587513612362">
+    <state width="2518" height="290" key="GridCell.Tab.0.left/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587516441864" />
+    <state width="2518" height="290" key="GridCell.Tab.0.right" timestamp="1587516441865">
       <screen x="-299" y="-1057" width="2560" height="1057" />
     </state>
-    <state x="490" y="-890" key="SettingsEditor/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587513612362" />
+    <state width="2518" height="290" key="GridCell.Tab.0.right/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587516441865" />
+    <state x="490" y="-890" key="SettingsEditor" timestamp="1587514359847">
+      <screen x="-299" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="490" y="-890" key="SettingsEditor/-2219.-1057.1920.1057/0.23.1792.1097/-299.-1057.2560.1057@-299.-1057.2560.1057" timestamp="1587514359847" />
     <state x="725" y="-572" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587513604232">
       <screen x="-299" y="-1057" width="2560" height="1057" />
     </state>

@@ -1,6 +1,7 @@
 package com.twu.biblioteca;
 
 import java.io.PrintStream;
+import java.util.ArrayList;
 
 public class Messages {
 
@@ -14,4 +15,13 @@ public class Messages {
         printStream.println("Welcome to Biblioteca. Your one-stop-shop for great book titles in Bangalore!");
     }
 
+    public void printBookList(ArrayList<Book> books) {
+        String booksToBePrinted = "";
+
+        for (Book book : books) {
+            booksToBePrinted += (book.toString() + "\n");
+        }
+
+        printStream.println(booksToBePrinted);
+    }
 }
