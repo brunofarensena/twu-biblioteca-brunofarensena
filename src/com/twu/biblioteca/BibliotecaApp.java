@@ -1,7 +1,6 @@
 package com.twu.biblioteca;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class BibliotecaApp {
 
@@ -11,9 +10,9 @@ public class BibliotecaApp {
 
         ArrayList<Book> book = new ArrayList<Book>();
 
-        book.add(new Book(1, "Harry Potter"));
-        book.add(new Book(2, "Clean code"));
-        book.add(new Book(3, "Java beginners"));
+        book.add(new Book(1, "Harry Potter", "Jk rolling", 2000));
+        book.add(new Book(2, "Clean code", "Martin Fowler", 2002));
+        book.add(new Book(3, "Java beginners", "Test3", 1999));
 
         messages.printBookList(book);
     }
